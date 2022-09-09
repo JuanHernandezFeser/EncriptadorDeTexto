@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+
+body{
+    background-color: #E5E5E5;
+}
+
+/*HEADER*/
+
+.logo{
+    position: relative;
+    left: 50px;
+    top:50px;
+}
+
+header{
+    margin-bottom: 4rem;
+}
+
+/*MAIN*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+h3,h4{
+    margin-bottom: 1rem;
+}
+
+/*SECCIÓN INPUT*/
+
+.section-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+}
+
+.input{
+    resize: none;
+    border: none;
+    background-color: inherit;
+    
+    height: 75%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color:#0A3871
+}
+
+.input::placeholder{
+    color:#0A3871;
+}
+
+span{
+    margin-bottom: 1rem;
+}
+
+footer{
+    margin-top: 2rem;
+}
+
+/*SECCIÓN OUTPUT*/
+
+.output-section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 400px;
+    height: 800px;
+    border-radius: 32px;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.output{
+    background-image: url(/images/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    resize: none;
+    border: none;
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    width: 80%;
+    height: 60%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+/*BOTONES*/
+
+button{
+    cursor: pointer;
+
+    border: #0A3871 solid 2px;
+
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+}
+
+button:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+button:hover{
+    background-color: white;
+}
+
+.btn_encriptar{
+    background-color:#0A3871;
+    color: white;
+}
+
+.btn_encriptar:hover{
+    background-color: #195cad;
+}
+
+.btn_copiar{
+    visibility: hidden;
+    position: relative;
+    top: 15%;
+}
+
+/*MEDIA QUERY WIDTH:1059*/
+@media (max-width: 1059px) {
+
+    main{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .input-botones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h4{
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:990px){
+    main{
+        flex-direction: column;
+    }
+
+    .section-input{
+        height: 400px;
+    }
+
+    .input-botones{
+        flex-direction: row;
+    }
+
+    .output-section{
+        width: 100%;
+        height: 300px;
+        margin-top: 1rem;
+    }
+
+    .output{
+        background-image: none;
+    }
+}
