@@ -92,7 +92,7 @@ footer{
 }
 
 .output{
-    background-image: url(/images/Muñeco.png);
+    background-image: url(images/Muñeco.png);
     background-repeat: no-repeat;
     background-position: center;
     resize: none;
