@@ -93,6 +93,7 @@ footer{
 }
 
 .output{
+    background-image: url(../images/muneco.png);
     background-repeat: no-repeat;
     background-position: center;
     resize: none;
