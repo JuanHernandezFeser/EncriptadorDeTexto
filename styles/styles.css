@@ -78,6 +78,7 @@ footer{
 /*SECCIÓN OUTPUT*/
 
 .output-section{
+    position: relative;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -150,8 +151,8 @@ button:hover{
 
 .btn_copiar{
     visibility: hidden;
-    position: relative;
-    top: 15%;
+    position: absolute;
+    bottom: 5%;
 }
 
 /*MEDIA QUERY WIDTH:1059*/
@@ -175,6 +176,16 @@ button:hover{
 }
 
 @media (max-width:990px){
+
+    .logo{
+        top: 20px;
+        left: 20px;
+    }
+
+    header{
+        height: 2rem;
+    }
+
     main{
         flex-direction: column;
     }
@@ -183,17 +194,45 @@ button:hover{
         height: 400px;
     }
 
+    .input{
+        width: 100%;
+    }
+
     .input-botones{
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
     }
 
     .output-section{
         width: 100%;
         height: 300px;
         margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-image: none;
     }
 
     .output{
+        text-align: center;
+        width: 100%;
+        height: 90%;
         background-image: none;
+    }
+
+    h4{
+        margin-bottom: 1rem;
+    }
+
+    .btn_encriptar{
+        width: 100%;
+    }
+
+    .btn_desencriptar{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    footer{
+        display: none;
     }
 }
