@@ -71,8 +71,14 @@ span{
     margin-bottom: 1rem;
 }
 
-footer{
+.footer1{
     margin-top: 2rem;
+    font-weight: 700;
+}
+
+.footer2{
+    display: none;
+    font-weight: 700;
 }
 
 /*SECCIÓN OUTPUT*/
@@ -233,7 +239,13 @@ button:hover{
         margin-top: 1rem;
     }
 
-    footer{
+    .footer1{
         display: none;
+    }
+
+    .footer2{
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
     }
 }
