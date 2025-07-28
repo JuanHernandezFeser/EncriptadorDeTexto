@@ -47,3 +47,11 @@ Aplicación web sencilla para encriptar y desencriptar mensajes usando reglas de
 | **Encriptar**    | Escribir texto y presionar “Encriptar”    |
 | **Desencriptar** | Escribir texto cifrado y presionar “Desencriptar” |
 | **Copiar**       | Usar el botón “Copiar Texto” del resultado |
+
+---
+
+## 👤 Autor
+
+- **Juan Ignacio Hernández Feser**
+- LinkedIn: [https://www.linkedin.com/in/juan-ignacio-hernandez-feser/](https://www.linkedin.com/in/juan-ignacio-hernandez-feser/)
+- GitHub: [JuanHernandezFeser](https://github.com/JuanHernandezFeser)
